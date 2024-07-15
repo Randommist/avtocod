@@ -67,6 +67,7 @@ class BaseReport(AvtocodObject):
     additional_blocks: List[Any]
     is_ready: bool
     is_completed: bool
+    is_test: bool
 
     accidents: Optional[BaseStatus] = None
     restrictions: Optional[BaseStatus] = None

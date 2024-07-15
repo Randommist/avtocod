@@ -17,5 +17,6 @@ class LoginData(AvtocodObject):
     token: str
     email: str
     phone: str
+    is_phone_verified: bool
     first_name: Optional[str] = None
     last_name: Optional[str] = None

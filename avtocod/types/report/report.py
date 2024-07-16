@@ -100,8 +100,7 @@ class Report(AvtocodObject):
 
     is_ready: bool
     is_completed: bool
-    tags_ids: List[Any]
-    stage: str
+    is_test: bool
     auto_index: int
     analytical_mileage: int
 

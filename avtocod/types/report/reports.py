@@ -61,9 +61,7 @@ class BaseReport(AvtocodObject):
     vin: Optional[str] = None
     body: Optional[str] = None
 
-    stage: str
     auto_index: int
-    tags_ids: List[Any]
     additional_blocks: List[Any]
     is_ready: bool
     is_completed: bool
